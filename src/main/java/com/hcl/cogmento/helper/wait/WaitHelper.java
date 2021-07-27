@@ -51,7 +51,6 @@ public class WaitHelper {
 		catch(Exception e){
 			log.info(element.toString() + "element is not visible after " +timeOutinSeconds + "seconds");
 		}
-		
 		return display;
 	}
 	

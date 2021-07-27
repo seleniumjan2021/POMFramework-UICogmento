@@ -23,6 +23,15 @@ public class ResourceHelper {
 		String path = "src/main/resources/";
 		return getProjectPath() + path; 
 	}
+	
+	/**This method will return the project resource path 
+	 * @return String
+	 */
+	public static String getResourcePath(String FilePath) {
+		String basePath = System.getProperty("user.dir") + "/";
+		String path = "src/main/resources/";
+		return basePath + path + FilePath; 
+	}
 	/**This method will return the driver folder path 
 	 * @return String
 	 */
@@ -44,6 +53,13 @@ public class ResourceHelper {
 			return getProjectPath()+"AutomationReport/"+ subFolderName+"/"+fileName;
 	}
 	
+	public static String getReportPath() {
+		return getProjectPath()+"AutomationReport/";
+	}
+	
+	public static String getReportPath(String subFolderName ) {
+		return getProjectPath()+"AutomationReport/"+ subFolderName+"/";
+}
 	public static void main(String[] args) {
 		System.out.println(getResourcePath());
 		System.out.println(getBrowserDriverPath("chromedriver"));
