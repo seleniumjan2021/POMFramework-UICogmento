@@ -1,27 +1,61 @@
-2021-07-27 09:44:08 INFO  TestBase:56 - Before Suite Report TypeCustomerBilling , Execution Locationlocal
-  2021-07-27 09:44:08 INFO  ExtentManager:32 - Automation Extent Report located :-->/Users/ashu/eclipse-workspace/uiFrameworkCogmento/AutomationReport/extentReport/uiCogmento_07_27_2021_09_44_08.html
-  2021-07-27 09:44:09 INFO  TestBase:90 - *****verifyLaunchURL Started....!! *********
-  2021-07-27 09:44:18 INFO  TestBase:101 - verifyLaunchURL Test Passed....
-  2021-07-27 09:44:18 INFO  TestBase:117 - verifyLaunchURL Finished...!!
-  2021-07-27 09:44:18 INFO  TestBase:90 - *****loginIntoApplicationWithValidCredentials Started....!! *********
-  2021-07-27 09:44:25 INFO  WaitHelper:41 - waiting for :Proxy element for: DefaultElementLocator 'By.name: email' : 15seconds to visible 
-  2021-07-27 09:44:28 INFO  WaitHelper:49 - [[ChromeDriver: chrome on MAC (f08d2d1c0ee40ea0918f710991f504f4)] -> name: email] element visible ?true
-  2021-07-27 09:44:29 INFO  Library:47 - aakash.er@gmail.com value set to [[ChromeDriver: chrome on MAC (f08d2d1c0ee40ea0918f710991f504f4)] -> name: email]
-  2021-07-27 09:44:29 INFO  WaitHelper:41 - waiting for :[[ChromeDriver: chrome on MAC (f08d2d1c0ee40ea0918f710991f504f4)] -> name: password] : 15seconds to visible 
-  2021-07-27 09:44:29 INFO  WaitHelper:49 - [[ChromeDriver: chrome on MAC (f08d2d1c0ee40ea0918f710991f504f4)] -> name: password] element visible ?true
-  2021-07-27 09:44:30 INFO  Library:47 - lucknow_1000 value set to [[ChromeDriver: chrome on MAC (f08d2d1c0ee40ea0918f710991f504f4)] -> name: password]
-  2021-07-27 09:44:30 INFO  WaitHelper:60 - waiting for : [[ChromeDriver: chrome on MAC (f08d2d1c0ee40ea0918f710991f504f4)] -> xpath: //*[text()='Login']] : 15seconds to be clickable
-  2021-07-27 09:44:30 INFO  WaitHelper:64 - [[ChromeDriver: chrome on MAC (f08d2d1c0ee40ea0918f710991f504f4)] -> xpath: //*[text()='Login']]element clickable ? true
-  2021-07-27 09:44:30 INFO  Library:27 - [[ChromeDriver: chrome on MAC (f08d2d1c0ee40ea0918f710991f504f4)] -> xpath: //*[text()='Login']]clicked
-  2021-07-27 09:44:35 INFO  WaitHelper:41 - waiting for :[[ChromeDriver: chrome on MAC (f08d2d1c0ee40ea0918f710991f504f4)] -> xpath: //span[contains(text(),'Aakash Srivastava')]] : 15seconds to visible 
-  2021-07-27 09:44:35 INFO  WaitHelper:49 - [[ChromeDriver: chrome on MAC (f08d2d1c0ee40ea0918f710991f504f4)] -> xpath: //span[contains(text(),'Aakash Srivastava')]] element visible ?true
-  2021-07-27 09:44:35 INFO  WaitHelper:41 - waiting for :[[ChromeDriver: chrome on MAC (f08d2d1c0ee40ea0918f710991f504f4)] -> xpath: //i[@class= 'settings icon']/parent::div] : 15seconds to visible 
-  2021-07-27 09:44:36 INFO  WaitHelper:49 - [[ChromeDriver: chrome on MAC (f08d2d1c0ee40ea0918f710991f504f4)] -> xpath: //i[@class= 'settings icon']/parent::div] element visible ?true
-  2021-07-27 09:44:36 INFO  Library:27 - [[ChromeDriver: chrome on MAC (f08d2d1c0ee40ea0918f710991f504f4)] -> xpath: //i[@class= 'settings icon']/parent::div]clicked
-  2021-07-27 09:44:37 INFO  Library:27 - [[ChromeDriver: chrome on MAC (f08d2d1c0ee40ea0918f710991f504f4)] -> xpath: //*[contains(text(),'Log Out')]]clicked
-  2021-07-27 09:44:37 INFO  WaitHelper:41 - waiting for :Proxy element for: DefaultElementLocator 'By.xpath: //*[text()='Login']' : 15seconds to visible 
-  2021-07-27 09:44:42 INFO  WaitHelper:49 - [[ChromeDriver: chrome on MAC (f08d2d1c0ee40ea0918f710991f504f4)] -> xpath: //*[text()='Login']] element visible ?true
-  2021-07-27 09:44:45 INFO  TestBase:101 - loginIntoApplicationWithValidCredentials Test Passed....
-  2021-07-27 09:44:45 INFO  TestBase:117 - loginIntoApplicationWithValidCredentials Finished...!!
-  2021-07-27 09:44:52 INFO  TestBase:72 - Automation Run Completed on UIProducts app versionv12.02
+2021-07-28 10:03:27 INFO  TestBase:56 - Before Suite Report TypeCustomerBilling , Execution Locationlocal
+  2021-07-28 10:03:27 INFO  ExtentManager:32 - Automation Extent Report located :-->/Users/ashu/eclipse-workspace/uiFrameworkCogmento/AutomationReport/extentReport/uiCogmento_07_28_2021_10_03_27.html
+  2021-07-28 10:03:27 INFO  TestBase:90 - *****verifyLaunchURL Started....!! *********
+  2021-07-28 10:03:35 INFO  TestBase:101 - verifyLaunchURL Test Passed....
+  2021-07-28 10:03:35 INFO  TestBase:117 - verifyLaunchURL Finished...!!
+  2021-07-28 10:03:35 INFO  TestBase:90 - *****loginIntoApplicationWithValidCredentials Started....!! *********
+  2021-07-28 10:03:41 INFO  WaitHelper:41 - waiting for :Proxy element for: DefaultElementLocator 'By.name: email' : 15seconds to visible 
+  2021-07-28 10:03:47 INFO  WaitHelper:49 - [[ChromeDriver: chrome on MAC (e757fec9b59f5363e36368b7e6faeaae)] -> name: email] element visible ?true
+  2021-07-28 10:03:47 INFO  Library:47 - aakash.er@gmail.com value set to [[ChromeDriver: chrome on MAC (e757fec9b59f5363e36368b7e6faeaae)] -> name: email]
+  2021-07-28 10:03:47 INFO  WaitHelper:41 - waiting for :[[ChromeDriver: chrome on MAC (e757fec9b59f5363e36368b7e6faeaae)] -> name: password] : 15seconds to visible 
+  2021-07-28 10:03:47 INFO  WaitHelper:49 - [[ChromeDriver: chrome on MAC (e757fec9b59f5363e36368b7e6faeaae)] -> name: password] element visible ?true
+  2021-07-28 10:03:48 INFO  Library:47 - lucknow_1000 value set to [[ChromeDriver: chrome on MAC (e757fec9b59f5363e36368b7e6faeaae)] -> name: password]
+  2021-07-28 10:03:48 INFO  WaitHelper:60 - waiting for : [[ChromeDriver: chrome on MAC (e757fec9b59f5363e36368b7e6faeaae)] -> xpath: //*[text()='Login']] : 15seconds to be clickable
+  2021-07-28 10:03:48 INFO  WaitHelper:64 - [[ChromeDriver: chrome on MAC (e757fec9b59f5363e36368b7e6faeaae)] -> xpath: //*[text()='Login']]element clickable ? true
+  2021-07-28 10:03:48 INFO  Library:27 - [[ChromeDriver: chrome on MAC (e757fec9b59f5363e36368b7e6faeaae)] -> xpath: //*[text()='Login']]clicked
+  2021-07-28 10:03:53 INFO  WaitHelper:41 - waiting for :[[ChromeDriver: chrome on MAC (e757fec9b59f5363e36368b7e6faeaae)] -> xpath: //span[contains(text(),'Aakash Srivastava')]] : 15seconds to visible 
+  2021-07-28 10:03:53 INFO  WaitHelper:49 - [[ChromeDriver: chrome on MAC (e757fec9b59f5363e36368b7e6faeaae)] -> xpath: //span[contains(text(),'Aakash Srivastava')]] element visible ?true
+  2021-07-28 10:03:53 INFO  WaitHelper:41 - waiting for :[[ChromeDriver: chrome on MAC (e757fec9b59f5363e36368b7e6faeaae)] -> xpath: //i[@class= 'settings icon']/parent::div] : 15seconds to visible 
+  2021-07-28 10:03:53 INFO  WaitHelper:49 - [[ChromeDriver: chrome on MAC (e757fec9b59f5363e36368b7e6faeaae)] -> xpath: //i[@class= 'settings icon']/parent::div] element visible ?true
+  2021-07-28 10:03:53 INFO  Library:27 - [[ChromeDriver: chrome on MAC (e757fec9b59f5363e36368b7e6faeaae)] -> xpath: //i[@class= 'settings icon']/parent::div]clicked
+  2021-07-28 10:03:55 INFO  Library:27 - [[ChromeDriver: chrome on MAC (e757fec9b59f5363e36368b7e6faeaae)] -> xpath: //*[contains(text(),'Log Out')]]clicked
+  2021-07-28 10:03:55 INFO  WaitHelper:41 - waiting for :Proxy element for: DefaultElementLocator 'By.xpath: //*[text()='Login']' : 15seconds to visible 
+  2021-07-28 10:04:02 INFO  WaitHelper:49 - [[ChromeDriver: chrome on MAC (e757fec9b59f5363e36368b7e6faeaae)] -> xpath: //*[text()='Login']] element visible ?true
+  2021-07-28 10:04:04 INFO  TestBase:101 - loginIntoApplicationWithValidCredentials Test Passed....
+  2021-07-28 10:04:04 INFO  TestBase:117 - loginIntoApplicationWithValidCredentials Finished...!!
+  2021-07-28 10:04:04 INFO  TestBase:90 - *****loginWithApplicationWithInvalidCredentials Started....!! *********
+  2021-07-28 10:04:14 INFO  WaitHelper:41 - waiting for :[[ChromeDriver: chrome on MAC (9cafbf4350712ae17f833acad3e4f404)] -> name: email] : 15seconds to visible 
+  2021-07-28 10:04:14 INFO  WaitHelper:49 - [[ChromeDriver: chrome on MAC (9cafbf4350712ae17f833acad3e4f404)] -> name: email] element visible ?true
+  2021-07-28 10:04:14 INFO  Library:47 - aakash.er@gmail.com value set to [[ChromeDriver: chrome on MAC (9cafbf4350712ae17f833acad3e4f404)] -> name: email]
+  2021-07-28 10:04:14 INFO  WaitHelper:41 - waiting for :[[ChromeDriver: chrome on MAC (9cafbf4350712ae17f833acad3e4f404)] -> name: password] : 15seconds to visible 
+  2021-07-28 10:04:14 INFO  WaitHelper:49 - [[ChromeDriver: chrome on MAC (9cafbf4350712ae17f833acad3e4f404)] -> name: password] element visible ?true
+  2021-07-28 10:04:14 INFO  Library:47 - vgjwk112#$%^& value set to [[ChromeDriver: chrome on MAC (9cafbf4350712ae17f833acad3e4f404)] -> name: password]
+  2021-07-28 10:04:14 INFO  WaitHelper:60 - waiting for : [[ChromeDriver: chrome on MAC (9cafbf4350712ae17f833acad3e4f404)] -> xpath: //*[text()='Login']] : 15seconds to be clickable
+  2021-07-28 10:04:14 INFO  WaitHelper:64 - [[ChromeDriver: chrome on MAC (9cafbf4350712ae17f833acad3e4f404)] -> xpath: //*[text()='Login']]element clickable ? true
+  2021-07-28 10:04:15 INFO  Library:27 - [[ChromeDriver: chrome on MAC (9cafbf4350712ae17f833acad3e4f404)] -> xpath: //*[text()='Login']]clicked
+  2021-07-28 10:04:15 INFO  WaitHelper:41 - waiting for :Proxy element for: DefaultElementLocator 'By.xpath: //*[contains(text(),'Invalid login')]' : 15seconds to visible 
+  2021-07-28 10:04:18 INFO  WaitHelper:49 - [[ChromeDriver: chrome on MAC (9cafbf4350712ae17f833acad3e4f404)] -> xpath: //*[contains(text(),'Invalid login')]] element visible ?true
+  2021-07-28 10:04:18 INFO  TestBase:101 - loginWithApplicationWithInvalidCredentials Test Passed....
+  2021-07-28 10:04:18 INFO  TestBase:117 - loginWithApplicationWithInvalidCredentials Finished...!!
+  2021-07-28 10:04:18 INFO  TestBase:90 - *****loginInApplicationWithEmptyFields Started....!! *********
+  2021-07-28 10:04:25 INFO  WaitHelper:41 - waiting for :Proxy element for: DefaultElementLocator 'By.name: email' : 15seconds to visible 
+  2021-07-28 10:04:27 INFO  WaitHelper:49 - [[ChromeDriver: chrome on MAC (bf467706813997e6e432371990c74d99)] -> name: email] element visible ?true
+  2021-07-28 10:04:27 INFO  Library:47 - aakash.er@gmail.com value set to [[ChromeDriver: chrome on MAC (bf467706813997e6e432371990c74d99)] -> name: email]
+  2021-07-28 10:04:28 INFO  WaitHelper:60 - waiting for : [[ChromeDriver: chrome on MAC (bf467706813997e6e432371990c74d99)] -> xpath: //*[text()='Login']] : 15seconds to be clickable
+  2021-07-28 10:04:28 INFO  WaitHelper:64 - [[ChromeDriver: chrome on MAC (bf467706813997e6e432371990c74d99)] -> xpath: //*[text()='Login']]element clickable ? true
+  2021-07-28 10:04:28 INFO  Library:27 - [[ChromeDriver: chrome on MAC (bf467706813997e6e432371990c74d99)] -> xpath: //*[text()='Login']]clicked
+  2021-07-28 10:04:28 INFO  WaitHelper:41 - waiting for :Proxy element for: DefaultElementLocator 'By.xpath: //*[contains(text(),'Invalid login')]' : 15seconds to visible 
+  2021-07-28 10:04:44 INFO  WaitHelper:52 - Proxy element for: DefaultElementLocator 'By.xpath: //*[contains(text(),'Invalid login')]'element is not visible after 15seconds
+  2021-07-28 10:04:44 INFO  Library:65 - [[ChromeDriver: chrome on MAC (bf467706813997e6e432371990c74d99)] -> name: email]value is cleared
+  2021-07-28 10:04:44 INFO  WaitHelper:41 - waiting for :[[ChromeDriver: chrome on MAC (bf467706813997e6e432371990c74d99)] -> name: password] : 15seconds to visible 
+  2021-07-28 10:04:44 INFO  WaitHelper:49 - [[ChromeDriver: chrome on MAC (bf467706813997e6e432371990c74d99)] -> name: password] element visible ?true
+  2021-07-28 10:04:44 INFO  Library:47 - lucknow_1000 value set to [[ChromeDriver: chrome on MAC (bf467706813997e6e432371990c74d99)] -> name: password]
+  2021-07-28 10:04:44 INFO  WaitHelper:60 - waiting for : [[ChromeDriver: chrome on MAC (bf467706813997e6e432371990c74d99)] -> xpath: //*[text()='Login']] : 15seconds to be clickable
+  2021-07-28 10:04:44 INFO  WaitHelper:64 - [[ChromeDriver: chrome on MAC (bf467706813997e6e432371990c74d99)] -> xpath: //*[text()='Login']]element clickable ? true
+  2021-07-28 10:04:44 INFO  Library:27 - [[ChromeDriver: chrome on MAC (bf467706813997e6e432371990c74d99)] -> xpath: //*[text()='Login']]clicked
+  2021-07-28 10:04:44 INFO  WaitHelper:41 - waiting for :Proxy element for: DefaultElementLocator 'By.xpath: //*[contains(text(),'Invalid login')]' : 15seconds to visible 
+  2021-07-28 10:05:00 INFO  WaitHelper:52 - Proxy element for: DefaultElementLocator 'By.xpath: //*[contains(text(),'Invalid login')]'element is not visible after 15seconds
+  2021-07-28 10:05:00 INFO  TestBase:101 - loginInApplicationWithEmptyFields Test Passed....
+  2021-07-28 10:05:00 INFO  TestBase:117 - loginInApplicationWithEmptyFields Finished...!!
+  2021-07-28 10:05:06 INFO  TestBase:72 - Automation Run Completed on UIProducts app versionv12.02
   

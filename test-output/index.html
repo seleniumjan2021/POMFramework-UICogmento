@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hcl.cogmento.prod.testScript.login.LoginPageTest" hash-for-method="loginInApplicationWithEmptyFields">loginInApplicationWithEmptyFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hcl.cogmento.prod.testScript.login.LoginPageTest" hash-for-method="loginIntoApplicationWithValidCredentials">loginIntoApplicationWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.hcl.cogmento.prod.testScript.login.LoginPageTest" hash-for-method="loginWithApplicationWithInvalidCredentials">loginWithApplicationWithInvalidCredentials</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -130,11 +140,29 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="loginInApplicationWithEmptyFields">
+                  </a> <!-- loginInApplicationWithEmptyFields -->
+                  <span class="method-name">loginInApplicationWithEmptyFields</span>
+                  <em>
+(TC004/005 - Invalid credential with one empty field)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="loginIntoApplicationWithValidCredentials">
                   </a> <!-- loginIntoApplicationWithValidCredentials -->
                   <span class="method-name">loginIntoApplicationWithValidCredentials</span>
                   <em>
-(Login with Valid crendentials)                  </em>
+(TC002-Login with Valid crendentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithApplicationWithInvalidCredentials">
+                  </a> <!-- loginWithApplicationWithInvalidCredentials -->
+                  <span class="method-name">loginWithApplicationWithInvalidCredentials</span>
+                  <em>
+(TC003 - Login with inValid credentials )                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -143,7 +171,7 @@
                   </a> <!-- verifyLaunchURL -->
                   <span class="method-name">verifyLaunchURL</span>
                   <em>
-(Verify Launch URL is success)                  </em>
+(TC001- Verify Launch URL is success)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -151,7 +179,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/9l/wsrl71mx5sz___0928ggrz8c0000gn/T/testng-eclipse-2120293160/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/9l/wsrl71mx5sz___0928ggrz8c0000gn/T/testng-eclipse--2055504828/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -200,20 +228,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginIntoApplicationWithValidCredentials')
+data.setCell(0, 1, 'loginInApplicationWithEmptyFields')
 data.setCell(0, 2, 'com.hcl.cogmento.prod.testScript.login.LoginPageTest')
-data.setCell(0, 3, 26575);
+data.setCell(0, 3, 41791);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyLaunchURL')
+data.setCell(1, 1, 'loginIntoApplicationWithValidCredentials')
 data.setCell(1, 2, 'com.hcl.cogmento.prod.testScript.login.LoginPageTest')
-data.setCell(1, 3, 9086);
+data.setCell(1, 3, 29169);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginWithApplicationWithInvalidCredentials')
+data.setCell(2, 2, 'com.hcl.cogmento.prod.testScript.login.LoginPageTest')
+data.setCell(2, 3, 13681);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyLaunchURL')
+data.setCell(3, 2, 'com.hcl.cogmento.prod.testScript.login.LoginPageTest')
+data.setCell(3, 3, 7965);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 35 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -241,44 +277,68 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.hcl.cogmento.prod.testScript.login.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">beforeSuite(org.testng.TestRunner@1b28f282)</span>
+                <span class="method-name">beforeSuite(org.testng.TestRunner@117bcfdc)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">585 ms</span>
+                <span class="method-start">362 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void com.hcl.cogmento.prod.testScript.login.LoginPageTest.verifyLaunchURL())</span>
-                <span class="method-start">606 ms</span>
+                <span class="method-start">374 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyLaunchURL</span>
-                <span class="method-start">608 ms</span>
+                <span class="method-start">377 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=verifyLaunchURL status=SUCCESS method=LoginPageTest.verifyLaunchURL()[pri:0, instan...)</span>
-                <span class="method-start">9697 ms</span>
+                <span class="method-start">8344 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void com.hcl.cogmento.prod.testScript.login.LoginPageTest.loginIntoApplicationWithValidCreden...)</span>
-                <span class="method-start">9711 ms</span>
+                <span class="method-start">8349 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginIntoApplicationWithValidCredentials</span>
-                <span class="method-start">9713 ms</span>
+                <span class="method-start">8350 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=loginIntoApplicationWithValidCredentials status=SUCCESS method=LoginPageTest.loginI...)</span>
-                <span class="method-start">36292 ms</span>
+                <span class="method-start">37522 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hcl.cogmento.prod.testScript.login.LoginPageTest.loginWithApplicationWithInvalidCred...)</span>
+                <span class="method-start">37525 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithApplicationWithInvalidCredentials</span>
+                <span class="method-start">37528 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=loginWithApplicationWithInvalidCredentials status=SUCCESS method=LoginPageTest.logi...)</span>
+                <span class="method-start">51211 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hcl.cogmento.prod.testScript.login.LoginPageTest.loginInApplicationWithEmptyFields())</span>
+                <span class="method-start">51214 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginInApplicationWithEmptyFields</span>
+                <span class="method-start">51215 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=loginInApplicationWithEmptyFields status=SUCCESS method=LoginPageTest.loginInApplic...)</span>
+                <span class="method-start">93007 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">36295 ms</span>
+                <span class="method-start">93011 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">43346 ms</span>
+                <span class="method-start">99145 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

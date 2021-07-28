@@ -36,6 +36,8 @@ public class LoginPage {
 	@FindBy(xpath = "//*[contains(text(),'Forgot')]")
 	public WebElement forgotPasswordLink;
 	
+	@FindBy(xpath = "//*[contains(text(),'Invalid login')]")
+	public WebElement inValidLoginTxt;
 	
 	public boolean signIntoApplication(String username , String password) throws Exception
 	{ 

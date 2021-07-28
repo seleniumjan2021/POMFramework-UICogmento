@@ -25,7 +25,7 @@ public class LoginPageTest extends TestBase {
 	ChromeBrowser browser = new ChromeBrowser();
 	boolean status ;
 	
-	@Test(priority = 0 , description = "Verify Launch URL is success")
+	@Test(priority = 0 , description = "TC001- Verify Launch URL is success")
 	public void verifyLaunchURL(){
 		test.info("Driver Initialisation in " + this.getClass().getSimpleName() + " class");	
 		driver = browser.getChromeDriver();	
@@ -41,7 +41,7 @@ public class LoginPageTest extends TestBase {
 		driver.quit();
 	}
 	
-	@Test(priority =1 , description = "Login with Valid crendentials")
+	@Test(priority =1 , description = "TC002-Login with Valid crendentials")
 	public void loginIntoApplicationWithValidCredentials() {
 		test.info("Driver Initialisation in " + this.getClass().getSimpleName() + " class");	
 		try {
@@ -66,6 +66,74 @@ public class LoginPageTest extends TestBase {
 	}
 	
 	
+	@Test(priority = 3, description = "TC003 - Login with inValid credentials ")
+	public void loginWithApplicationWithInvalidCredentials() {
+		test.info("Driver Initialisation in " + this.getClass().getSimpleName() + " class");	
+		try {
+		driver = browser.getChromeDriver();	
+		initializeObject();
+		login.clearCacheAndMaximizeWindow();
+		boolean launchSuccess = login.launch(TD.URL);
+		Assert.assertTrue(launchSuccess, "Failed ! Not able to launch Title");
+		Thread.sleep(2000);
+		if(wait.waitForElementVisible(login.emailIDField, TestUtil.standardWait)) {
+			lib.setValueOnElement(login.emailIDField, TD.uiEmailAddress);
+		}
+		wait.waitForElementVisible(login.passwordField, TestUtil.standardWait);
+		lib.setValueOnElement(login.passwordField, TD.inValidPassword);
+		wait.waitForElementClickable(login.submitBtn, TestUtil.standardWait);
+		lib.clickOnElement(login.submitBtn);
+		if(wait.waitForElementVisible(login.inValidLoginTxt, TestUtil.standardWait)) {
+			String invalidText = login.inValidLoginTxt.getText();
+			Assert.assertEquals(invalidText, TD.invalidLoginText);
+		}
+		driver.close();
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	@Test(priority = 4 , description = "TC004/005 - Invalid credential with one empty field")
+	public void loginInApplicationWithEmptyFields()
+	{
+		test.info("Driver Initialisation in " + this.getClass().getSimpleName() + " class");	
+		try {
+		driver = browser.getChromeDriver();	
+		initializeObject();
+		login.clearCacheAndMaximizeWindow();
+		boolean launchSuccess = login.launch(TD.URL);
+		Assert.assertTrue(launchSuccess, "Failed ! Not able to launch Title");
+		Thread.sleep(2000);
+		//Entering username /Empty Password
+		if(wait.waitForElementVisible(login.emailIDField, TestUtil.standardWait)) {
+			lib.setValueOnElement(login.emailIDField, TD.uiEmailAddress);	
+		}
+		//Submit button
+		wait.waitForElementClickable(login.submitBtn, TestUtil.standardWait);
+		lib.clickOnElement(login.submitBtn);
+		if(wait.waitForElementVisible(login.inValidLoginTxt, TestUtil.standardWait)) {
+			String invalidText = login.inValidLoginTxt.getText();
+			Assert.assertEquals(invalidText, TD.invalidLoginText);
+		}
+		//Clearing the Username
+		lib.clearValueFromEditField(login.emailIDField);
+		//Entering the Password
+		wait.waitForElementVisible(login.passwordField, TestUtil.standardWait);
+		lib.setValueOnElement(login.passwordField, TD.uiPassword);
+		wait.waitForElementClickable(login.submitBtn, TestUtil.standardWait);
+		lib.clickOnElement(login.submitBtn);
+		if(wait.waitForElementVisible(login.inValidLoginTxt, TestUtil.standardWait)) {
+			String invalidText = login.inValidLoginTxt.getText();
+			Assert.assertEquals(invalidText, TD.invalidLoginText);
+		}
+		driver.close();
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
 	
 	
 	private void initializeObject() {

@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37737" started-at="2021-07-27T04:14:09Z" finished-at="2021-07-27T04:14:47Z">
+  <suite name="Default suite" duration-ms="93776" started-at="2021-07-28T04:33:27Z" finished-at="2021-07-28T04:35:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37737" started-at="2021-07-27T04:14:09Z" finished-at="2021-07-27T04:14:47Z">
+    <test name="Default test" duration-ms="93776" started-at="2021-07-28T04:33:27Z" finished-at="2021-07-28T04:35:01Z">
       <class name="com.hcl.cogmento.prod.testScript.login.LoginPageTest">
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.hcl.cogmento.prod.testScript.login.LoginPageTest@65e2dbf3]" name="beforeSuite" is-config="true" duration-ms="562" started-at="2021-07-27T04:14:08Z" finished-at="2021-07-27T04:14:09Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.hcl.cogmento.prod.testScript.login.LoginPageTest@65e2dbf3]" name="beforeSuite" is-config="true" duration-ms="346" started-at="2021-07-28T04:33:27Z" finished-at="2021-07-28T04:33:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1b28f282]]>
+                <![CDATA[org.testng.TestRunner@117bcfdc]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.hcl.cogmento.prod.testScript.login.LoginPageTest@65e2dbf3]" name="beforeClass" is-config="true" duration-ms="7" started-at="2021-07-27T04:14:09Z" finished-at="2021-07-27T04:14:09Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.hcl.cogmento.prod.testScript.login.LoginPageTest@65e2dbf3]" name="beforeClass" is-config="true" duration-ms="5" started-at="2021-07-28T04:33:27Z" finished-at="2021-07-28T04:33:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hcl.cogmento.prod.testScript.login.LoginPageTest@65e2dbf3]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2021-07-27T04:14:09Z" finished-at="2021-07-27T04:14:09Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hcl.cogmento.prod.testScript.login.LoginPageTest@65e2dbf3]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-07-28T04:33:27Z" finished-at="2021-07-28T04:33:27Z">
           <params>
             <param index="0">
               <value>
@@ -33,11 +33,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyLaunchURL()[pri:0, instance:com.hcl.cogmento.prod.testScript.login.LoginPageTest@65e2dbf3]" name="verifyLaunchURL" duration-ms="9086" started-at="2021-07-27T04:14:09Z" description="Verify Launch URL is success" finished-at="2021-07-27T04:14:18Z">
+        <test-method status="PASS" signature="verifyLaunchURL()[pri:0, instance:com.hcl.cogmento.prod.testScript.login.LoginPageTest@65e2dbf3]" name="verifyLaunchURL" duration-ms="7965" started-at="2021-07-28T04:33:27Z" description="TC001- Verify Launch URL is success" finished-at="2021-07-28T04:33:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLaunchURL -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hcl.cogmento.prod.testScript.login.LoginPageTest@65e2dbf3]" name="afterMethod" is-config="true" duration-ms="6" started-at="2021-07-27T04:14:18Z" finished-at="2021-07-27T04:14:18Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hcl.cogmento.prod.testScript.login.LoginPageTest@65e2dbf3]" name="afterMethod" is-config="true" duration-ms="2" started-at="2021-07-28T04:33:35Z" finished-at="2021-07-28T04:33:35Z">
           <params>
             <param index="0">
               <value>
@@ -48,7 +48,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hcl.cogmento.prod.testScript.login.LoginPageTest@65e2dbf3]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2021-07-27T04:14:18Z" finished-at="2021-07-27T04:14:18Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hcl.cogmento.prod.testScript.login.LoginPageTest@65e2dbf3]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-07-28T04:33:35Z" finished-at="2021-07-28T04:33:35Z">
           <params>
             <param index="0">
               <value>
@@ -59,11 +59,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="loginIntoApplicationWithValidCredentials()[pri:1, instance:com.hcl.cogmento.prod.testScript.login.LoginPageTest@65e2dbf3]" name="loginIntoApplicationWithValidCredentials" duration-ms="26575" started-at="2021-07-27T04:14:18Z" description="Login with Valid crendentials" finished-at="2021-07-27T04:14:45Z">
+        <test-method status="PASS" signature="loginIntoApplicationWithValidCredentials()[pri:1, instance:com.hcl.cogmento.prod.testScript.login.LoginPageTest@65e2dbf3]" name="loginIntoApplicationWithValidCredentials" duration-ms="29169" started-at="2021-07-28T04:33:35Z" description="TC002-Login with Valid crendentials" finished-at="2021-07-28T04:34:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginIntoApplicationWithValidCredentials -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hcl.cogmento.prod.testScript.login.LoginPageTest@65e2dbf3]" name="afterMethod" is-config="true" duration-ms="3" started-at="2021-07-27T04:14:45Z" finished-at="2021-07-27T04:14:45Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hcl.cogmento.prod.testScript.login.LoginPageTest@65e2dbf3]" name="afterMethod" is-config="true" duration-ms="2" started-at="2021-07-28T04:34:04Z" finished-at="2021-07-28T04:34:04Z">
           <params>
             <param index="0">
               <value>
@@ -74,11 +74,63 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.hcl.cogmento.prod.testScript.login.LoginPageTest@65e2dbf3]" name="afterClass" is-config="true" duration-ms="2004" started-at="2021-07-27T04:14:45Z" finished-at="2021-07-27T04:14:47Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hcl.cogmento.prod.testScript.login.LoginPageTest@65e2dbf3]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2021-07-28T04:34:04Z" finished-at="2021-07-28T04:34:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hcl.cogmento.prod.testScript.login.LoginPageTest.loginWithApplicationWithInvalidCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginWithApplicationWithInvalidCredentials()[pri:3, instance:com.hcl.cogmento.prod.testScript.login.LoginPageTest@65e2dbf3]" name="loginWithApplicationWithInvalidCredentials" duration-ms="13681" started-at="2021-07-28T04:34:04Z" description="TC003 - Login with inValid credentials " finished-at="2021-07-28T04:34:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithApplicationWithInvalidCredentials -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hcl.cogmento.prod.testScript.login.LoginPageTest@65e2dbf3]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-07-28T04:34:18Z" finished-at="2021-07-28T04:34:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithApplicationWithInvalidCredentials status=SUCCESS method=LoginPageTest.loginWithApplicationWithInvalidCredentials()[pri:3, instance:com.hcl.cogmento.prod.testScript.login.LoginPageTest@65e2dbf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hcl.cogmento.prod.testScript.login.LoginPageTest@65e2dbf3]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-07-28T04:34:18Z" finished-at="2021-07-28T04:34:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hcl.cogmento.prod.testScript.login.LoginPageTest.loginInApplicationWithEmptyFields()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginInApplicationWithEmptyFields()[pri:4, instance:com.hcl.cogmento.prod.testScript.login.LoginPageTest@65e2dbf3]" name="loginInApplicationWithEmptyFields" duration-ms="41791" started-at="2021-07-28T04:34:18Z" description="TC004/005 - Invalid credential with one empty field" finished-at="2021-07-28T04:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInApplicationWithEmptyFields -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hcl.cogmento.prod.testScript.login.LoginPageTest@65e2dbf3]" name="afterMethod" is-config="true" duration-ms="3" started-at="2021-07-28T04:35:00Z" finished-at="2021-07-28T04:35:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginInApplicationWithEmptyFields status=SUCCESS method=LoginPageTest.loginInApplicationWithEmptyFields()[pri:4, instance:com.hcl.cogmento.prod.testScript.login.LoginPageTest@65e2dbf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.hcl.cogmento.prod.testScript.login.LoginPageTest@65e2dbf3]" name="afterClass" is-config="true" duration-ms="1110" started-at="2021-07-28T04:35:00Z" finished-at="2021-07-28T04:35:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.hcl.cogmento.prod.testScript.login.LoginPageTest@65e2dbf3]" name="afterSuite" is-config="true" duration-ms="6" started-at="2021-07-27T04:14:52Z" finished-at="2021-07-27T04:14:52Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.hcl.cogmento.prod.testScript.login.LoginPageTest@65e2dbf3]" name="afterSuite" is-config="true" duration-ms="2" started-at="2021-07-28T04:35:06Z" finished-at="2021-07-28T04:35:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

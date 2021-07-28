@@ -8,8 +8,12 @@ public class TD {
 	public static String lastName = "Srivastava";
 	public static String fullName = firstName.concat(" "+ lastName);
 	
+	//Invalid Credendials
+	public static String inValidPassword = "vgjwk112#$%^&";
 	//Application URL
 	public final static String URL = "https://ui.cogmento.com/";
 	public final static String pageTitle = "Cogmento CRM";
-	
+
+	//Texts
+	public static String invalidLoginText = "Invalid login";
 }
