@@ -1,7 +1,5 @@
 package com.hcl.cogmento.prod.pageObjects;
 
-import java.net.URL;
-
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -23,7 +21,7 @@ public class LoginPage {
 		this.driver = driver;
 		PageFactory.initElements(driver,this); 
 	}
-	
+	//Here contains all the locator that belongs to LoginPage
 	@FindBy(name = "email")
 	public WebElement emailIDField;
 
@@ -38,6 +36,8 @@ public class LoginPage {
 	
 	@FindBy(xpath = "//*[contains(text(),'Invalid login')]")
 	public WebElement inValidLoginTxt;
+	
+	//Purpose: Is to allow user to enter into the application from LoginPage.
 	
 	public boolean signIntoApplication(String username , String password) throws Exception
 	{ 
