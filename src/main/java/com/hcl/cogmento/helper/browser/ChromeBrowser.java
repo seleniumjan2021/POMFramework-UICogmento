@@ -12,6 +12,7 @@ import com.hcl.cogmento.helper.resources.ResourceHelper;
 
 public class ChromeBrowser {
 
+	@SuppressWarnings("unused")
 	private static Logger log = LoggerHelper.getLogger(ChromeBrowser.class);
 	public static WebDriver driver = null;
 	

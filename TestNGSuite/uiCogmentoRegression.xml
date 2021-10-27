@@ -5,8 +5,8 @@
 	  <parameter name="reportType" value="uiCogmento"/>
 	  <parameter name="location" value = "local"/>	
 	  <classes>
-	  <class name="practiceTests.testParameters"/>
-	  
+	  <class name = "com.hcl.cogmento.prod.testScript.login.LoginPageTest" />
+	  <class name = "com.hcl.cogemento.prod.testScript.homePage.HomePageTest"/>
 	  </classes>
   </test> <!-- Test -->	
 </suite> <!-- Suite -->
